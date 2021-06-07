@@ -1,7 +1,6 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import './App.css'
 import Counter from "./Components/Counter";
 
 class App extends React.Component {
@@ -34,8 +33,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <h1 className="header">Counter</h1>
+      <div className="App ">
+        <h1 className ="header ">Counter</h1>
         
         <Counter
           count={this.state.count}

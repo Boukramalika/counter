@@ -39,7 +39,9 @@ class Counter extends React.Component {
                             onClick={this.props.subtractFunction} >
                             -
                             </Button>
-                        <h2 style={{ marginLeft: "20px", marginRight: "20px" }}> {this.props.count} </h2>
+                        <h2 style={{ marginLeft: "20px",
+                         marginRight: "20px" }}>
+                             {this.props.count} </h2>
 
 
                         <Button className="btn1 "
